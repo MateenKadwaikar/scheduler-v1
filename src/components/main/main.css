@@ -1,0 +1,13 @@
+.Nav_link:active {
+  color: red;
+}
+
+.pd-left-5px{
+  padding-left: 5px;
+}
+
+.activeRoute {
+  background-color: red;
+  border-bottom: 0.4rem solid teal;
+  cursor: not-allowed;
+}

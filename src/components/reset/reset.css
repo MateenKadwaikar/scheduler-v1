@@ -1,0 +1,19 @@
+.button {
+  border-radius: 0;
+}
+.card-content.reset {
+  background-color: #f9f6f6;
+  border: none;
+  height: 250px;
+  padding: 20px;
+}
+
+.input{
+  border-width:1px;
+  border-radius:15px;
+}
+
+
+.label {
+  font-weight: lighter;
+}

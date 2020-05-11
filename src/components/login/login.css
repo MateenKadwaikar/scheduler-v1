@@ -1,0 +1,26 @@
+.button {
+    border-radius: 0;
+ }
+.card-content.login {
+    background-color: #f9f6f6;
+    border: none;
+    height: 400px;
+    padding: 20px;
+}
+
+.card-footer-item.register {
+    background-color: #284863;
+    color: white;
+}
+.input{
+    border-width:1px;
+    border-radius:15px;
+}
+
+.login-footer {
+    border: none;
+}
+
+.label {
+    font-weight: lighter;
+}
