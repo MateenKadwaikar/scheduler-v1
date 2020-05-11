@@ -13,7 +13,7 @@ const SignUp = () => {
   const [fullName, setFullName] = useState('');
 
   useSelector((state) => {
-    if (state.loginReducer.success) {
+    if (state.authReducer.success) {
       history.push('/event')
     }
   })
