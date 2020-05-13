@@ -1,1 +1,1 @@
-export default url = `https://www.mocky.io/v2/`;
+export default url = "https://www.mocky.io/v2/";

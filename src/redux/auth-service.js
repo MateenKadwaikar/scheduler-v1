@@ -1,6 +1,6 @@
 import axios from 'axios';
 import AuthActions from './auth-action';
-import url from './serviceurl';
+import { url } from './serviceurl';
 
 const userLoginService = ({ email, password }) => {
   return async (dispatch) => {
