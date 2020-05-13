@@ -1,6 +1,6 @@
 import axios from 'axios';
 import AuthActions from './auth-action';
-const url = `http://www.mocky.io/v2/`;
+import url from './serviceurl';
 
 const userLoginService = ({ email, password }) => {
   return async (dispatch) => {

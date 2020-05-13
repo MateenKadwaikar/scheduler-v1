@@ -1,6 +1,6 @@
 import axios from 'axios';
 import EventActions from './event-action';
-const url = `https://www.mocky.io/v2/`;
+import url from './serviceurl';
 
 const saveEventService = ({ eventName, duration, id }) => {
   return async (dispatch) => {
